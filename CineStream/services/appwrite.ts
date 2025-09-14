@@ -110,6 +110,7 @@ export const getTrendingMovies = async (): Promise<TrendingMovie[] | undefined> 
   release_date: string;
   vote_average: number;
   runtime: number;
+  revenue?:string;
   genres: Array<{ id: number; name: string }>;
   // Add other properties as needed
 }

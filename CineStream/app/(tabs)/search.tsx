@@ -1,11 +1,11 @@
 import { View, Text, Image, FlatList, ActivityIndicator } from "react-native";
 import React, { useState, useEffect } from "react";
 import { images } from "@/constants/images";
-import MovieCard from "@/components/MovieCard";
+import MovieCard from "@/assets/images/components/MovieCard";
 import { useRouter } from "expo-router";
 import { fetchMovies } from "@/services/api";
 import { icons } from "@/constants/icons";
-import SearchBar from "@/components/SearchBar";
+import SearchBar from "@/assets/images/components/SearchBar";
 import { updateSearchCount } from "@/services/appwrite";
 
 interface Movie {
